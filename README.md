@@ -2,6 +2,7 @@
 ffsend action for Nemo file manager
 
 You can upload file or dir to Firefox Send with this Nemo action by archived and passworded
+
 Bu Nemo aksiyonu ile Firefox Send'e şıkıştırılmış ve parola korulamalı olarak dosya ya da dizin gönderebilirsiniz.
 
 How to Install / Nasıl Kurulur
