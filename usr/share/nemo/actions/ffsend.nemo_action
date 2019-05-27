@@ -1,9 +1,10 @@
 [Nemo Action]
 
 Name=Upload to Firefox Send
+Name[nl]=Uploaden naar Firefox Send
 Name[tr]=Firefox Send'e Yükle
 Icon-Name=firefox-symbolic
-Exec=/bin/sh -c "/opt/ffsend upload --password --archive '%F' | grep Share | firefox --new-window $(awk '{print $3}');bash"
+Exec=/bin/sh -c "/opt/ffsend upload --quiet --password --archive '%F' | firefox --new-window $(xargs); bash"
 Selection=any
 Extensions=any;
 Terminal=true
